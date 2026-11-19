@@ -1,0 +1,17 @@
+# Paste this in your .env file 
+
+CURRENCY=INR
+CURRENCY_SYMBOL=₹
+DATABASE_URL=sqlite+aiosqlite:///./claimflow.db
+QDRANT_LOCAL_PATH=./qdrant_storage
+QDRANT_COLLECTION=comprehensive_motor_policies
+AUTO_APPROVE_THRESHOLD=135000.0
+FRAUD_SCORE_THRESHOLD=0.65
+
+COMPANY_NOTIFY_EMAIL=your_company@gmail.com
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=user@gmail.com
+SMTP_PASSWORD=your_passowrd
+SMTP_FROM=your_user@gmail.com
+SEND_CUSTOMER_EMAILS=false
