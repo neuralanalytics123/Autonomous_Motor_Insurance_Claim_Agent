@@ -2,13 +2,10 @@ Autonomous Motor Insurance Claim Agent
 
 An Autonomous motor insurance claim agent system that processes claims end-to-end with zero paid external LLM API keys—combining automated policy checks, risk scoring, company approval workflows, email alerts, and full audit logs in Python, LangGraph, FastEmbed + Qdrant, SQLAlchemy / SQLite (or PostgreSQL), Streamlit, and Python smtplib.
 
-    Intake & Proof: Captures claim details, dates, and supporting files.
-
-    Policy & Rules Check: Looks up policy records, searches clauses with FastEmbed + Qdrant, flags exclusions, and sets deductibles and coverage caps.
-
-    Risk Check & Payout Routing: Scores risk flags, computes proposed payouts, and sends claims to company/human approval before payout.
-
-    Notifications & Audit Trail: Sends email alerts, logs updates, saves claim history, and supports CSV/Excel exports.
+--->Intake & Proof: The system captures claim details, incident and payout dates, and supporting proof files submitted with the request.
+--->Policy & Rules Check: It looks up the relevant policy record, searches policy clauses using FastEmbed and Qdrant, identifies any exclusions, and determines the applicable deductible and coverage cap.
+--->Risk Check & Payout Routing: It evaluates risk flags, calculates the proposed payout, and routes claims for company/human approval prior to payout.
+--->Notifications & Audit Trail: It sends email notifications, logs updates, saves full claim history, and supports CSV and Excel exports for reporting.
 
 ## Table of Contents
 
