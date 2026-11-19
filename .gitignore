@@ -1,0 +1,34 @@
+# Secrets & environment variables
+.env
+.env.*
+!.env.example
+
+# Local database, vector store, proof uploads & alert logs
+claimflow.db
+claimflow.db-journal
+claimflow.db-wal
+claimflow.db-shm
+qdrant_storage/
+data/claim_proofs/
+company_claim_alerts.jsonl
+
+# Python & uv
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Streamlit & OS/IDE files
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
