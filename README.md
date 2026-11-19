@@ -12,6 +12,12 @@ Notifications & Audit Trail:  It sends email notifications, logs updates, saves 
 
 Application Link : https://autonomousmotorinsuranceclaimagent-ru76brjjmgzl6kwqtuapv8.streamlit.app/
 
+<img width="1771" height="898" alt="Screenshot From 2026-11-20 00-58-00" src="https://github.com/user-attachments/assets/9f75e643-8af7-48ac-96be-1b4797169007" />
+
+<img width="1261" height="955" alt="Screenshot From 2026-11-20 00-57-02" src="https://github.com/user-attachments/assets/461e12ce-6c60-4d1a-b2ae-6c1d92a5f568" />
+
+
+
 ## Table of Contents
 
 1. [What This Project Is & What It Solves](#1-what-this-project-is--what-it-solves)
